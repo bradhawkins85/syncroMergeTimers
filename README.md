@@ -17,3 +17,7 @@ Tickets - Edit Single-Customer
 Tickets - List/Search Single-Customer
 
 The flow also send a Teams chat message after each ticket is processed to allow easy checking of processed tickets, this is no essential to the flow but recommended.
+
+Although there is a Delete Line Items step at the end this appears to leave the Labour Log items in their original state (Charged or Not Charged), if somehting goes wrong you can clear the charges in re-charge in the labour log to reinstate the original charges.
+
+Due to rounding issues, the final labour charge on the consolidated items may be a minute or two higher or lower than the split line items; this will be fixed in a later release of the flow.
